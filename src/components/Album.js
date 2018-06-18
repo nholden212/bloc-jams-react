@@ -152,7 +152,7 @@ class Album extends Component {
                   {(this.state.currentSong === song && this.state.isPlaying) && <td><span className="ion-pause"></span></td>}
                   {(this.state.hoveredSong !== song && this.state.currentSong !== song) && <td>{index + 1}</td>}
                   <td>{song.title}</td>
-                  <td>{this.formatTime(song.duration)} seconds</td>
+                  <td>{this.formatTime(song.duration)}</td>
                 </tr>
             )}
           </tbody>
