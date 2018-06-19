@@ -1,28 +1,198 @@
 .App {
   text-align: center;
+  font-family: 'Encode Sans Condensed', sans-serif;
+  background: linear-gradient(#6178E9, #AEBAF8);
+  position: absolute;
+  width: 100% !important;
+  height: 100% !important;
 }
 
-.App-logo {
-  animation: App-logo-spin infinite 20s linear;
-  height: 80px;
+header {
+  color: white;
+  background: linear-gradient(#0B36AC, #132B6B);
+  padding: 1px;
 }
 
-.App-header {
-  background-color: #222;
-  height: 150px;
-  padding: 20px;
+.mainTitle {
+  font-size: 45px;
+}
+
+nav {
+  background-color: #6178E9;
+  padding: 5px;
+}
+
+.navLink {
+  padding: 5px;
+  text-decoration: none;
+  color: #132B6B;
+}
+
+.navLink:hover {
   color: white;
 }
 
-.App-title {
-  font-size: 1.5em;
+.navLink:active {
+  color: #7D91F6;
 }
 
-.App-intro {
-  font-size: large;
+img {
+  height: 100px;
+  width: 100px;
+  border-style: ridge;
+  border-color: #132B6B;
+  border-width: 2px;
+  margin: 10px;
 }
 
-@keyframes App-logo-spin {
-  from { transform: rotate(0deg); }
-  to { transform: rotate(360deg); }
+.hero-title {
+  font-size: 28px;
+}
+
+.point-title {
+  font-size: 22px;
+}
+
+.point-description {
+  font-size: 18px;
+  width: 300px;
+  margin: auto;
+  padding-bottom: 20px;
+}
+
+.album-entry {
+  text-decoration: none;
+  color: black;
+  width: 20px;
+  padding: 40px;
+}
+
+.album-entry:hover {
+  color: #132B6B;
+}
+
+.album-entry:active {
+  color: white;
+}
+
+.library-text {
+  font-size: 22px;
+  display: inline-block;
+  position: relative;
+  bottom: 25px;
+  padding-bottom: 40px;
+}
+
+.album {
+  position: relative;
+  top: 40px;
+}
+
+#album-title {
+  font-weight: bold;
+}
+
+.album-details {
+  padding-top: 20px;
+  display: inline-block;
+  position: relative;
+  bottom: 30px;
+  padding-left: 10px;
+}
+
+#album-info {
+  width: 300px;
+  margin: auto;
+}
+
+#album-title {
+  font-size: 20px;
+  margin: 1px;
+}
+
+.artist {
+  font-size: 18px;
+  margin: 1px
+}
+
+#release-info {
+  font-size: 16px;
+  margin: 1px;
+}
+
+#song-list {
+  margin: auto;
+  padding: 20px;
+}
+
+#song-number-column {
+  width: 20px;
+}
+
+#song-duration-column {
+  width: 20px;
+}
+
+#song-title-column {
+  width: 130px;
+}
+
+.song-title {
+  text-align: left;
+}
+
+.player-bar {
+  color: white;
+  background: linear-gradient(#0B36AC, #132B6B);
+  position: fixed;
+  bottom: 0;
+  padding: 5px;
+  width: 100%;
+}
+
+#buttons {
+  display: inline-block;
+  position: relative;
+  margin: auto;
+  bottom: 5px;
+}
+
+#time-control {
+  display: inline;
+  position: relative;
+  padding: 10px;
+}
+
+.current-time {
+  display: inline-block;
+  position: relative;
+  bottom: 4px;
+  width: 30px;
+}
+
+.total-time {
+  display: inline-block;
+  position: relative;
+  bottom: 4px;
+  width: 30px;
+}
+
+#volume-control {
+  display: inline;
+  position: relatsive;
+  padding: 10px;
+}
+
+.icon, .ion-volume-low {
+  display: inline-block;
+  position: relative;
+  bottom: 4px;
+  width: 30px;
+}
+
+.icon, .ion-volume-high {
+  display: inline-block;
+  position: relative;
+  bottom: 4px;
+  width: 30px;
 }
